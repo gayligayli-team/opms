@@ -1,0 +1,61 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    margin: 15px;
+}
+.login-box{
+    background-color: #00C6D7;
+    height: 1000px;
+}
+.login{
+    width: 520px;
+    height: 300px;
+    border: slategray 1px solid;
+    background-color: white;
+    padding: 24px;
+}
+.text{
+    width: 441px;
+    padding:12.5px 15px 12.5px 60px;
+    margin: 5px 0px 5px 0px;
+}
+.submit{
+    width: 520px;
+    height: 62px;
+    background-color: #ea4c89;
+    color:white;
+    border: #ea4c89 2px solid;
+    padding: 10px 15px;
+    margin-top: 20px;
+    transition: background-color 1s;
+}
+.submit:hover{
+    background-color: white;
+    transition: background-color 1s;
+    color: #ea4c89
+}
+.check-box{
+    background: white;
+    border: palegoldenrod 1px solid
+}
+.new{
+    margin-top:40px;
+}
+p{
+    float: left;
+}
+.sign{
+    float:right;
+}
+.sign>a,
+.sign>a:link,
+.sign>a:visited{
+    text-decoration: none;
+    color: #00C6D7
+}
+.sign>a:hover{
+    text-decoration: underline;
+}
